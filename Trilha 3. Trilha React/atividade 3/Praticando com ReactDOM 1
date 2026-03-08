@@ -1,0 +1,12 @@
+// index.jsx
+const { render } = ReactDOM;
+
+const elemento = React.createElement("p", {}, "Olá, Mundo!");
+const root = document.getElementById("root");
+
+// renderize aqui
+render(elemento, root);
+
+//index.html 
+
+<div id="root"></div>
