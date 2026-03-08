@@ -1,0 +1,5 @@
+function obterNumerosPositivos(numeros) {
+    return numeros.filter(numero => numero > 0);
+}
+
+console.log(obterNumerosPositivos([10, -5, 2, -4]));
