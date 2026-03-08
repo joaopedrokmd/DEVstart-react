@@ -1,0 +1,11 @@
+// React não precisa ser importado, já pode utilizá-lo diretamente
+
+function criarTitulo() {
+  return React.createElement(
+    "h1",
+    { className: "titulo-hero" },
+    "Bem-vindo ao nosso supermercado"
+  );
+}
+
+console.log(criarTitulo());
