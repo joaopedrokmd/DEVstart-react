@@ -1,1 +1,5 @@
-npm create vite@latest
+function obterVersaoReact() {
+  return React.version;
+}
+
+console.log(obterVersaoReact());
