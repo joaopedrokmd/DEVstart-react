@@ -1,0 +1,20 @@
+function obterTestesQuePassaram(resultados) {
+    return resultados.filter(teste => teste.nota >= 10);
+}
+
+const dados = [
+{
+    idProva: 1,
+    nota: 10
+}, 
+{
+    idProva: 2,
+    nota: 4
+}, 
+{
+    idProva: 3,
+    nota: 18
+}
+];
+
+console.log(obterTestesQuePassaram(dados));
