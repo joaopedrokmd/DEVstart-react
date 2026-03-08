@@ -1,0 +1,8 @@
+// React não precisa ser importado, já pode utilizá-lo diretamente
+
+function criarElementoDiv() {
+  return React.createElement("div", null, "Olá Mundo!");
+}
+
+console.log(criarElementoDiv());
+console.log(criarElementoDiv());
