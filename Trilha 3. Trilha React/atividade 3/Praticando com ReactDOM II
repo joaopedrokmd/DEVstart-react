@@ -1,0 +1,18 @@
+//index.jsx
+const { render } = ReactDOM;
+
+// crie o elemento
+const elemento = React.createElement(
+  "h1",
+  {},
+  "Supermercado Online"
+);
+
+// pegue a root
+const root = document.getElementById("root");
+
+// renderize aqui
+render(elemento, root);
+
+//index.html 
+<div id="root"></div>
